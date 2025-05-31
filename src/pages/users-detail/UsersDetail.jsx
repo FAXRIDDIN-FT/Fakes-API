@@ -3,7 +3,6 @@ import { useNavigate, useParams } from 'react-router-dom';
 import useFetch from '../../hooks/useFetch';
 
 // Icons (heroicons)
-import { UserCircleIcon, EnvelopeIcon, PhoneIcon, MapPinIcon, IdentificationIcon } from '@heroicons/react/24/outline';
 
 const UsersDetail = () => {
   const { id } = useParams();

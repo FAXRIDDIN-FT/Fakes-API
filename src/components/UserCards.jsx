@@ -3,7 +3,6 @@ import { NavLink } from 'react-router-dom';
 import LoadingUserCards from './LoadingUserCards';
 
 // Icons (heroicons)
-
 const UserCards = ({ data, loading }) => {
   return (
     <section className="py-10 bg-gray-50 min-h-screen">
